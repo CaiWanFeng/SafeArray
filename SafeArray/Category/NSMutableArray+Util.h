@@ -10,4 +10,6 @@
 
 @interface NSMutableArray (Util)
 
+- (id)safeObjectAtIndex:(NSUInteger)index;
+
 @end
