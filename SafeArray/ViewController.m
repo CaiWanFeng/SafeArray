@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "NSArray+Util.h"
+#import "NSMutableArray+Util.h"
 
 @interface ViewController ()
 
@@ -17,13 +19,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    //------- 不可变数组越界测试 -------//
+    
+    
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+/** 测试不可变数组越界 */
+- (void)testImmutableArray {
+    
 }
-
 
 @end
